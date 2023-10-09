@@ -41,6 +41,9 @@ public class BookManagement {
                 case 7:
                     System.exit(0);
                     break;
+                default:
+                    System.out.println("Không hợp lệ vui lòng nhập lại");
+                    break;
             }
         }
     }
